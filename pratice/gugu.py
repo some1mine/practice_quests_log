@@ -1,5 +1,5 @@
-print('\n\n'.join(
-    ['\n'.join([
+print('\n\n'.join([
+    '\n'.join([
         '\t\t'.join([
             f'{i * 3 + k} * {j} = {(i * 3 + k) * j}' 
         for k in range(1, 4)])
